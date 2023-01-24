@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className="tags">
           {tags.map((item) => (
-            <Tags key={item} props={item} />
+            <Tags key={item} props={"#" + item} />
           ))}
         </div>
       </div>
